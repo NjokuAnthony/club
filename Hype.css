@@ -1,0 +1,138 @@
+html {
+    background-color: rgb(166, 103, 224);
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    padding-left: 40px;
+    padding-right:40px;
+    box-sizing: border-box;
+}
+
+@media and screen (max-width: 700px) {
+    .container {
+        width: 
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:85%
+}
+ h1 {
+     margin: 0;
+     font-size: 150%;
+ }
+ h2 {
+     margin: 0;
+     font-size: 120%;
+ }
+.life {
+    color: rgb(88, 14, 88 );
+    font-family: 10px;
+    transition-property: all 2s ease 1s;
+    
+}
+.life:hover {
+    color:rgb(104, 20, 12);
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+h2:hover {
+    color: rgb(8, 126, 126);
+    font-size: 80px;
+    transition: font-size 50s linear 0.5s;
+}
+/* site-navigation */
+.Vic {
+    margin-top: 20px;
+}
+
+.Vic ul {
+    margin: 0;
+    padding: 0; 
+}
+
+.Vic li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+
+}
+.Vic a {
+    color: rgb(97, 72, 8);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(59, 7, 59);
+    
+}
+.Vic a:hover {
+    background-color: rgb(6, 6, 63);
+    
+}
+
+
+
+
+/* End site-navigation */
+
+.area {
+    border-top: 4px solid rgb(188, 44, 188);
+    border-bottom: 4px solid rgb(188, 44, 188);
+}
+.main {
+    width: 55%;
+    float: left;
+    padding-right: 40px;
+    box-sizing:border-box;
+
+}
+.main h3 {
+    color: rgb(188, 44, 188);
+}
+.mode {
+    width: 45%;
+    float: left;
+    background-color: rgb(222, 196, 245);
+    padding: 40px 20px;
+    box-sizing: border-box;
+    font-size: 80%;
+    margin-bottom: 20px;
+    background-image:linear-gradient(to bottom, rgb(222, 196, 245), #fff )
+    
+}
+
+.mode h3 {
+    color: rgb(188, 44, 188);
+}
+
+@media screen and (max-width:800px) {
+    .main,
+    .mode {
+        width: auto;
+        float: none;
+    }
+    .main {
+        padding: 0;
+    }
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
